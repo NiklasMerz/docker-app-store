@@ -14,8 +14,36 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong class="capitalize">Home</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+  <!-- https://ionicframework.com/docs/layout/grid -->
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button size="large">
+          <ion-icon name="beer"></ion-icon>
+        </ion-button>
+       <p>Brewery</p>
+      </ion-col>
+      <ion-col>
+        <ion-button size="large">
+          <ion-icon name="boat"></ion-icon>
+        </ion-button>
+        <p>Harbour</p>
+      </ion-col>
+      <ion-col >
+        <ion-button size="large">
+          <ion-icon name="bicycle"></ion-icon>
+        </ion-button>
+        <p>Bikes</p>
+      </ion-col>
+      <ion-col>
+        <ion-button size="large">
+          <ion-icon name="fast-food"></ion-icon>
+        </ion-button>
+        <p>Food</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
